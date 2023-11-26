@@ -10,7 +10,9 @@
 ## Requirements
 
 Run `conda create -n mobile_classifier python==3.9`
+
 `conda activate mobile_classifier`
+
 `pip install -r requirements.txt`
 
 ## Training

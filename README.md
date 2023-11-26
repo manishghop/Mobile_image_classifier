@@ -9,11 +9,12 @@
 
 ## Requirements
 
-Run `conda create -n mobile_classifier python==3.9`
+Run: 
+1) `conda create -n mobile_classifier python==3.9`
 
-`conda activate mobile_classifier`
+2) `conda activate mobile_classifier`
 
-`pip install -r requirements.txt`
+3) `pip install -r requirements.txt`
 
 ## Training
 
@@ -21,8 +22,8 @@ Run `conda create -n mobile_classifier python==3.9`
 
 ## Export
 
-Run `python export_model_to_onnx.py`
+1) Run `python export_model_to_onnx.py`
 
-Run `onnx-tf -i mobile_fruit_classification.onnx -o mobile_fruit_classification.pb`
+2) Run `onnx-tf -i mobile_fruit_classification.onnx -o mobile_fruit_classification.pb`
 
-Run `python export_onnx_tflite.py`
+3) Run `python export_onnx_tflite.py`
